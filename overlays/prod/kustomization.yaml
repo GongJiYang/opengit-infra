@@ -2,16 +2,18 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: ghcr.io/opengit-dev/opengit-api-gateway
-    newTag: prod
-  - name: ghcr.io/opengit-dev/opengit-observer-ui
-    newTag: prod
+- name: ghcr.io/opengit-dev/opengit-api-gateway
+  newName: ghcr.io/opengit-dev/opengit-api-gateway
+  newTag: ee3ec833851aa7cc2dfe6a4831113a74fba0bcc3
+- name: ghcr.io/opengit-dev/opengit-observer-ui
+  newName: ghcr.io/opengit-dev/opengit-observer-ui
+  newTag: ee3ec833851aa7cc2dfe6a4831113a74fba0bcc3
 
 patchesJson6902:
-  - target:
-      kind: Ingress
-      name: opengit
-    path: patches.yaml
+- path: patches.yaml
+  target:
+    kind: Ingress
+    name: opengit
