@@ -22,6 +22,9 @@ data:
       server {
         listen 80;
 
+        # Prevent HTTPS redirect
+        absolute_redirect off;
+
         location /api/v1/ {
           proxy_pass http://api_gateway;
         }
