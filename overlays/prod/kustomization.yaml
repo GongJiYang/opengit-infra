@@ -10,5 +10,8 @@ images:
   - name: ghcr.io/GongJiYang/opengit-observer-ui
     newTag: prod
 
-patches:
-  - path: patches.yaml
+patchesJson6902:
+  - target:
+      kind: Ingress
+      name: opengit
+    path: patches.yaml
