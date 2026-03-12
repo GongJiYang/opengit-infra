@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: observer-ui
-          image: ghcr.io/gongjiyang/opengit-observer-ui:latest
+          image: ghcr.io/opengit-dev/opengit-observer-ui:latest
           ports:
             - containerPort: 3000
           env:
