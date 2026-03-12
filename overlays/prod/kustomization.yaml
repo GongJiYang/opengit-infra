@@ -7,10 +7,10 @@ resources:
 images:
 - name: ghcr.io/opengit-dev/opengit-api-gateway
   newName: ghcr.io/opengit-dev/opengit-api-gateway
-  newTag: d951e114c2da64d1c115ec79cd53286df35c639a
+  newTag: 8c63b605b51a33860f2e26d18f22a6ea3230a984
 - name: ghcr.io/opengit-dev/opengit-observer-ui
   newName: ghcr.io/opengit-dev/opengit-observer-ui
-  newTag: d951e114c2da64d1c115ec79cd53286df35c639a
+  newTag: 8c63b605b51a33860f2e26d18f22a6ea3230a984
 
 patchesJson6902:
 - path: patches.yaml
