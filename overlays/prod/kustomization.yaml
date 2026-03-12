@@ -5,9 +5,9 @@ resources:
   - ../../base
 
 images:
-  - name: ghcr.io/GongJiYang/opengit-api-gateway
+  - name: ghcr.io/gongjiyang/opengit-api-gateway
     newTag: prod
-  - name: ghcr.io/GongJiYang/opengit-observer-ui
+  - name: ghcr.io/gongjiyang/opengit-observer-ui
     newTag: prod
 
 patchesJson6902:
