@@ -11,10 +11,10 @@ images:
   newTag: dev
 - name: ghcr.io/opengit-dev/opengit-api-gateway
   newName: ghcr.io/opengit-dev/opengit-api-gateway
-  newTag: 0f229b5239ab714e361cbe67061c0847cf32b05f.128
+  newTag: af89c92daed2e982d00e0ef781a9e240f8c0cf6a.129
 - name: ghcr.io/opengit-dev/opengit-observer-ui
   newName: ghcr.io/opengit-dev/opengit-observer-ui
-  newTag: 0f229b5239ab714e361cbe67061c0847cf32b05f.128
+  newTag: af89c92daed2e982d00e0ef781a9e240f8c0cf6a.129
 
 patches:
 - path: patches.yaml
